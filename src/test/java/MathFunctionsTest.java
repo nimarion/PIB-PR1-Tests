@@ -10,7 +10,7 @@ public class MathFunctionsTest {
     @DisplayName("Teste Teilersummenberechnung ")
     @Test
     public void testTeilersumme() {
-        assertEquals(2, MathFunctions.berechneTeilersumme(1));
+        assertEquals(1, MathFunctions.berechneTeilersumme(1));
         assertEquals(3, MathFunctions.berechneTeilersumme(2));
         assertEquals(4, MathFunctions.berechneTeilersumme(3));
         assertEquals(7, MathFunctions.berechneTeilersumme(4));
@@ -35,6 +35,7 @@ public class MathFunctionsTest {
         assertEquals(24, MathFunctions.berechneTeilersumme(23));
         assertEquals(60, MathFunctions.berechneTeilersumme(24));
         assertEquals(31, MathFunctions.berechneTeilersumme(25));
+        assertEquals(217, MathFunctions.berechneTeilersumme(100));
     }
 
     @Test
