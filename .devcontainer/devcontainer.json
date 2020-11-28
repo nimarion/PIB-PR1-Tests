@@ -1,0 +1,13 @@
+{
+    "name": "PIB-PR1-Tests",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+        "java.home": "/usr/local/openjdk-15",
+    },
+    "extensions": [
+        "vscjava.vscode-java-pack",
+    ],
+}
