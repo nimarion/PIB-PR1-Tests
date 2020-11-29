@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
 @DisplayName("Testet die MathFunctions Klasse")
-public class MathFunctionsTest {
+public class MathFunctionsNormal {
 
     @DisplayName("Teste Teilersummenberechnung ")
     @Test
