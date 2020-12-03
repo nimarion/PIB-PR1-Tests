@@ -24,4 +24,16 @@ public class MathFunctionsTime {
         assertEquals(result, 5600748293802L);
     }
 
+    public static class PotenzTimeTest {
+
+        @Test
+        public void testBigLoop() {
+            assertTimeoutPreemptively(ofMillis(260), () -> {
+                for (int i = 1; i <= 10000; i++) {
+                    MathFunctions.istSummeVonPotenzen(i);
+                }
+            });
+        }
+    }
+
 }
