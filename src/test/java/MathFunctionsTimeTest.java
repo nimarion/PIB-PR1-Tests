@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import static java.time.Duration.ofMillis;
 
 @DisplayName("Testet die Laufzeit der Teilerberechnung")
-public class MathFunctionsTime {
+public class MathFunctionsTimeTest {
 
     @Test
     public void testBigInput() {
