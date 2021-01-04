@@ -13,6 +13,9 @@ curl -s https://raw.githubusercontent.com/nimarion/PIB-PR1-Tests/master/test.sh 
 1. [Übung 2](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb02)
 1. [Übung 3](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb03)
 1. [Übung 4](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb04)
+1. [Übung 5](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb05)
+1. [Übung 6](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb06)
+
 
 <p align="center">
   <img alt="Haha yes " width="250px" src="https://i.imgur.com/5bXJeZt.png">
