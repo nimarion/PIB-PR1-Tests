@@ -58,13 +58,13 @@ public class ArticleTest {
         public void testSetPrice() {
             Artikel artikel = getArtikel();
             Assertions.assertThrows(Throwable.class, () -> {
-                artikel.setPrice(0);
+                artikel.setPreis(0);
             });
             Assertions.assertThrows(Throwable.class, () -> {
-                artikel.setPrice(-1);
+                artikel.setPreis(-1);
             });
-            artikel.setPrice(3);
-            assertEquals(3, artikel.getPrice());
+            artikel.setPreis(3);
+            assertEquals(3, artikel.getPreis());
         }
 
         private Artikel getArtikel() {
@@ -81,7 +81,7 @@ public class ArticleTest {
             assertEquals(1234, artikel.getArtikelNr());
             assertEquals("Coca Cola", artikel.getArt());
             assertEquals(4, artikel.getBestand());
-            assertEquals(1.3, artikel.getPrice());
+            assertEquals(1.3, artikel.getPreis());
         }
 
         @Test
@@ -90,7 +90,7 @@ public class ArticleTest {
             assertEquals(1234, artikel.getArtikelNr());
             assertEquals("Limo", artikel.getArt());
             assertEquals(0, artikel.getBestand());
-            assertEquals(1.4, artikel.getPrice());
+            assertEquals(1.4, artikel.getPreis());
         }
 
         @Test

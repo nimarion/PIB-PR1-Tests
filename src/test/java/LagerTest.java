@@ -62,9 +62,9 @@ public class LagerTest {
             Lager lager = getLager();
             lager.legeAnArtikel(new Artikel(3333, "Coca Cola", 3));
             lager.bucheZugang(3333, 4);
-            assertEquals(4, lager.getArtikelByNr(3333).get().getBestand());
+            assertEquals(4, lager.getArtikelByNr(3333).getBestand());
             lager.bucheAbgang(3333, 2);
-            assertEquals(2, lager.getArtikelByNr(3333).get().getBestand());
+            assertEquals(2, lager.getArtikelByNr(3333).getBestand());
         }
 
         @Test
@@ -101,20 +101,20 @@ public class LagerTest {
             lager.legeAnArtikel(new Artikel(5555, "Limo", 4));
 
             lager.aenderePreisAllerArtikel(4);
-            assertEquals(3.12, lager.getArtikel(0).getPrice());
-            assertEquals(4.16, lager.getArtikel(1).getPrice());
+            assertEquals(3.12, lager.getArtikel(0).getPreis());
+            assertEquals(4.16, lager.getArtikel(1).getPreis());
 
             lager.aenderePreisAllerArtikel(25.5);
-            assertEquals(3.92, lager.getArtikel(0).getPrice());
-            assertEquals(5.22, lager.getArtikel(1).getPrice());
+            assertEquals(3.92, lager.getArtikel(0).getPreis());
+            assertEquals(5.22, lager.getArtikel(1).getPreis());
 
             lager.aenderePreisAllerArtikel(-25.5);
-            assertEquals(2.92, lager.getArtikel(0).getPrice());
-            assertEquals(3.89, lager.getArtikel(1).getPrice());
+            assertEquals(2.92, lager.getArtikel(0).getPreis());
+            assertEquals(3.89, lager.getArtikel(1).getPreis());
 
             lager.aenderePreisAllerArtikel(-100);
-            assertEquals(2.92, lager.getArtikel(0).getPrice());
-            assertEquals(3.89, lager.getArtikel(1).getPrice());
+            assertEquals(2.92, lager.getArtikel(0).getPreis());
+            assertEquals(3.89, lager.getArtikel(1).getPreis());
         }
 
         private Lager getLager() {
