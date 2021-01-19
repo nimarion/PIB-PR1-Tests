@@ -15,6 +15,7 @@ curl -s https://raw.githubusercontent.com/nimarion/PIB-PR1-Tests/master/test.sh 
 1. [Übung 4](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb04)
 1. [Übung 5](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb05)
 1. [Übung 6](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb06)
+1. [Übung 7](https://github.com/nimarion/PIB-PR1-Tests/tree/ueb07)
 
 
 <p align="center">
